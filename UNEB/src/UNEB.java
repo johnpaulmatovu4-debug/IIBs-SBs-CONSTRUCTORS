@@ -1,5 +1,10 @@
 public class UNEB {
     static int examyear;
     static int fee;
+    static {
+        System.out.println("---Static block---");
+        examyear = 2025;
+        fee = 50000;
+    }
 
 }
