@@ -11,12 +11,19 @@ public class UNEB {
     String centre;
     {
         System.out.println("---Instance block---");
-        status = "Pending";
         centre = "Kampala Centre";
     }
     public UNEB(String name){
         System.out.println("---Constructor---");
         this.name = name;
         status = "Registered";
+    }
+    public void showdetails(){
+        System.out.println("Name: " +name);
+        System.out.println("Exam year: " +examyear);
+        System.out.println("Fee: UGX " +fee);
+        System.out.println("Status: " +status);
+        System.out.println("Centre: " +centre);
+        System.out.println("----------------");
     }
 }
