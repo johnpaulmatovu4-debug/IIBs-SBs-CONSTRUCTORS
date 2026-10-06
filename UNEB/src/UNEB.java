@@ -6,5 +6,7 @@ public class UNEB {
         examyear = 2025;
         fee = 50000;
     }
-
+    String name;
+    String status;
+    String centre;
 }
