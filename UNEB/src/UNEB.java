@@ -14,4 +14,9 @@ public class UNEB {
         status = "Pending";
         centre = "Kampala Centre";
     }
+    public UNEB(String name){
+        System.out.println("---Constructor---");
+        this.name = name;
+        status = "Registered";
+    }
 }
