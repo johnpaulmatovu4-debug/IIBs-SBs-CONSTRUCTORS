@@ -9,4 +9,9 @@ public class UNEB {
     String name;
     String status;
     String centre;
+    {
+        System.out.println("---Instance block---");
+        status = "Pending";
+        centre = "Kampala Centre";
+    }
 }
